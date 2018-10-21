@@ -53,7 +53,7 @@ class UserDataSource<F>(private val A: Async<F>,
 
 ## JokeDataSource
 
-Give and user, with JokeDataSource<F> we can retrieve a Joke about him. The code is similar to UserDataSource<F>:
+Given an user, with JokeDataSource<F> we can retrieve a Joke about him. The code is similar to UserDataSource<F>:
   
 ```kotlin
 class JokeDataSource<F>(private val A: Async<F>,
